@@ -21,7 +21,7 @@ class Stack:
       self.head = temp.next
       temp.next = None
 
-  def status(self):
+  def status(self)
     """
     It prints all the elements of stack.
     """
@@ -33,7 +33,7 @@ class Stack:
         temp = temp.next
       else:
         print(temp.data,"None", sep="=>")
-    else
+    else:
       print("None")
 
 
